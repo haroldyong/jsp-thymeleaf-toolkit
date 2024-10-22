@@ -1,3 +1,5 @@
+HELP.md
+*/target/
 /target/
 !.mvn/wrapper/maven-wrapper.jar
 
@@ -15,14 +17,25 @@
 *.iws
 *.iml
 *.ipr
+*.log
 
 ### NetBeans ###
 /nbproject/private/
-/build/
 /nbbuild/
 /dist/
 /nbdist/
 /.nb-gradle/
-
-### vscode
+/build/
+/cache/
+/mq/
+/logs/
+/config/
+/images/
+/kettle/
+/.history/
+/src/test/
+/.VSCodeCounter/
+### VS Code ###
 .vscode/
+
+pom.xml.versionsBackup
